@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata = {
@@ -5,7 +6,7 @@ export const metadata = {
   description: "MongoDB Connect in Next Js App Routing",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>{children}</body>
