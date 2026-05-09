@@ -216,7 +216,7 @@ export default function SaasDashboard() {
                               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5"></span> Active
                             </span>
                           </td>
-                          <td className="py-4 px-6 flex justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                          <td className="py-4 px-6 flex justify-end gap-2">
                             <button onClick={() => openModal(user)} className="p-2 text-slate-400 hover:text-indigo-400 hover:bg-indigo-500/10 rounded-lg transition-all">
                               <Edit2 size={16} />
                             </button>
